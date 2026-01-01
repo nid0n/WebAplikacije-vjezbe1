@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja prva stranica – Header</title>
+    <style>
+        /* 1. Reset osnovnih margina i paddinga za sve elemente */
+* {margin: 0;
+padding: 0;
+}
+
+/* 2. Osnovni stil za cijelu stranicu */
+body {font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+
+/* 3. Header dio stranice */
+header {background-color: white;
+border: 1px solid #cccccc;
+margin: 20px;
+padding: 10px;
+}
+
+/* 4. Banner slika unutar headera */
+.banner img {width: 100%;
+display: block;
+border-bottom: 3px solid #ffcc00;
+}
+
+/* 5. Navigacija ispod bannera */
+nav {background-color: #333333;
+padding: 8px;
+margin-top: 10px;
+}
+
+/* 6. Lista u navigaciji */
+ul {list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+
+/* 7. Stavke liste u navigaciji */
+li {display: inline-block;
+margin-right: 15px;
+
+/* 8. Linkovi u navigaciji */
+a {text-decoration: none;
+color: white;
+border: 1px solid white;
+padding: 5px 12px;
+font-size: 14px;
+}
+
+/* 9. Glavni sadržaj (main) */
+main {background-color: white;
+border: 1px solid #cccccc;
+margin: 0 20px 20px 20px;
+padding: 10px;
+}
+
+/* 10. Tekst u glavnom sadržaju */
+main p {
+line-height: 1.5;
+}
+
+/* 11. Footer */
+footer 
+text-align: center;
+font-size: 12px;
+color: #555555;
+margin-bottom: 10px;
+}/* OVDJE ĆETE DODATI SVOJ CSS KOD */
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="banner">
+            <img src="lego_banner.jpg" alt="Lego">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Početna</a></li>
+                <li><a href="#">O nama</a></li>
+                <li><a href="#">Usluge</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>Ovdje će ići ostatak sadržaja stranice.</p>
+    </main>
+
+    <footer>
+        &copy; Ante Nikolic
+    </footer>
+</body>
+</html>
