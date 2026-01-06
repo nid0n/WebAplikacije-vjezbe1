@@ -1,0 +1,7 @@
+font-family: Superscripts-Oswald, Oswald, Roboto Condensed, Roboto, Noto Sans TC, Noto Sans SC, Noto Sans JP, Noto Sans KR, Prompt, sans-serif;
+
+
+.g__button--contained--candy-blue {
+    color: #000;
+    background: #6dcff6;
+    border-color: #6dcff6;
